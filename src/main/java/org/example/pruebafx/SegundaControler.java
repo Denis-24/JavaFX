@@ -34,7 +34,7 @@ public class SegundaControler {
 
     @FXML
     private void initialize(){
-        
+
 
         nameTable.setCellValueFactory(datos -> new SimpleStringProperty(datos.getValue().getNombre()));
         edadTable.setCellValueFactory(datos-> new SimpleIntegerProperty(datos.getValue().getEdad()).asObject());
